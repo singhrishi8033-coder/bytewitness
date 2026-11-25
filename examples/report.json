@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "reports": [
+    {
+      "file": "examples/invoice.txt",
+      "bytes": 77,
+      "sha256": "0707d47f3e7ce134c8712d2663b9847d8f8457c242bb42efcaf024a8895befc6",
+      "format": "unrecognized",
+      "findings": [
+        {
+          "rule": "local_hash_match",
+          "sha256": "0707d47f3e7ce134c8712d2663b9847d8f8457c242bb42efcaf024a8895befc6"
+        }
+      ],
+      "url_count": 1,
+      "urls": [
+        {
+          "offset": 45,
+          "text": "https://example.invalid/case/17"
+        }
+      ],
+      "high_entropy_window_count": 0,
+      "high_entropy_windows": []
+    }
+  ],
+  "errors": []
+}
